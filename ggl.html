@@ -59,7 +59,7 @@
 				x=ev.touches[0].clientX;
 				y=ev.touches[0].clientY;
 				//divStart.innerHTML='Touch start('+ev.touches[0].clientX+', '+ev.touches[0].clientY+')';
-				clearCircle(x,y,40);
+				clearCircle(x,y,60);
 				ev.preventDefault();  //阻止出现滚动条 
 			}
 			//手指在屏幕上移动时触发
@@ -67,7 +67,7 @@
 				//alert("touchend");
 				x=ev.changedTouches[0].clientX;
 				y=ev.changedTouches[0].clientY;	
-				clearCircle(x,y,40);				
+				clearCircle(x,y,60);				
 				//divMove.innerHTML='Touch move('+ev.changedTouches[0].clientX+', '+ev.changedTouches[0].clientY+')'; 
 			}
 			//手指离开屏幕时触发
